@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #283048; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #859398,
+    #283048
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #859398,
+    #283048
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.containers {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 500px) {
+  .containers {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    min-width: 100%;
+  }
+
+  .se {
+    font-size: 14px;
+    color: #fff;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width: 200px) {
+  .containers {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    min-width: 100%;
+  }
+
+  .se {
+    font-size: 13px;
+    color: #fff;
+    border-radius: 50px;
+  }
+}
+
+.allIcn {
+  border: 2px solid red;
+}
